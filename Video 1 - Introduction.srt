@@ -1,0 +1,178 @@
+1
+00:00:01,040 --> 00:00:02,480
+Hello. I'm Chris Heilmann.
+
+2
+00:00:02,480 --> 00:00:06,500
+I'm from Berlin, Germany and I've been
+a web developer for over 20 years.
+
+3
+00:00:06,510 --> 00:00:09,560
+And ever since we had JavaScript,
+that was one of my passions.
+
+4
+00:00:09,560 --> 00:00:12,460
+I wrote a few books about it,
+I did a lot of trainings on it,
+
+5
+00:00:12,460 --> 00:00:14,400
+and today, I'm going 
+to share some of that with you.
+
+6
+00:00:16,170 --> 00:00:20,580
+I'm very excited that our web community
+has become so big that you can go to Meetups
+
+7
+00:00:20,580 --> 00:00:23,680
+or conferences almost every week –
+and that's what I do.
+
+8
+00:00:23,680 --> 00:00:25,820
+I give a lot of keynotes,
+I give a lot of trainings,
+
+9
+00:00:26,100 --> 00:00:28,680
+and I interview in companies
+and with companies,
+
+10
+00:00:28,680 --> 00:00:30,720
+what they want to do
+with the newest technologies.
+
+11
+00:00:30,740 --> 00:00:33,320
+That includes machine learning,
+artificial intelligence,
+
+12
+00:00:33,500 --> 00:00:37,520
+and also good old web development
+with JavaScript and other languages.
+
+13
+00:00:38,280 --> 00:00:41,060
+This course is for people who want
+to understand JavaScript
+
+14
+00:00:41,079 --> 00:00:44,280
+and want to use it now
+and are kind of overwhelmed
+
+15
+00:00:44,280 --> 00:00:46,829
+by all the offers that are there
+and the fragmentation
+
+16
+00:00:46,829 --> 00:00:49,080
+of the learning materials
+that are out there.
+
+17
+00:00:49,280 --> 00:00:52,320
+So, if you're somebody
+who's just starting with JavaScript,
+
+18
+00:00:52,320 --> 00:00:53,840
+that's for you as well.
+
+19
+00:00:53,850 --> 00:00:55,920
+Or if you're somebody
+who's been doing JavaScript
+
+20
+00:00:55,920 --> 00:00:59,200
+but feels like there should be more,
+that's for you as well.
+
+21
+00:00:59,200 --> 00:01:02,719
+It's a good overview of what
+the JavaScript space is doing nowadays
+
+22
+00:01:02,720 --> 00:01:04,400
+and what you can do with the language,
+
+23
+00:01:04,400 --> 00:01:06,860
+and it's much more than 
+it used to be in the past.
+
+24
+00:01:08,100 --> 00:01:11,660
+All of the materials and all of the products
+we're going to talk about in this course
+
+25
+00:01:11,660 --> 00:01:15,790
+are web-based and open-source,
+so you can work with them across platforms.
+
+26
+00:01:15,790 --> 00:01:17,190
+You don't need to have a Macintosh.
+
+27
+00:01:17,190 --> 00:01:18,880
+You don't need to have a Windows machine.
+
+28
+00:01:18,880 --> 00:01:20,340
+You can use whatever you want.
+
+29
+00:01:20,340 --> 00:01:23,360
+I don't want to tell you 
+what environment to use
+
+30
+00:01:23,360 --> 00:01:25,150
+and what environment to set up.
+
+31
+00:01:25,150 --> 00:01:27,920
+Instead, you should find the one
+that makes you most comfortable.
+
+32
+00:01:27,920 --> 00:01:32,190
+So, nothing here is something
+that you need to buy because open-source
+
+33
+00:01:32,190 --> 00:01:34,220
+helps us be much better as developers.
+
+34
+00:01:35,020 --> 00:01:38,120
+I hope you find something
+that will excite you and you will become
+
+35
+00:01:38,120 --> 00:01:40,820
+a better JavaScript developer
+after the end of this course.
+
+36
+00:01:40,820 --> 00:01:42,120
+So let's get going.
+
+37
+00:01:42,120 --> 00:01:45,840
+=======================
+==   CLOSED CAPTIONS   ==
+== BY YERKCOL PTY LTD ==
+=======================
+
