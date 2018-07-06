@@ -1,0 +1,815 @@
+1
+00:00:00,570 --> 00:00:02,800
+Hello and welcome to
+the Rediscovering JavaScript course.
+
+2
+00:00:02,800 --> 00:00:06,400
+Today, we want to talk about what
+JavaScript is and what it has become.
+
+3
+00:00:06,840 --> 00:00:09,160
+The problem with JavaScript
+is that it's always been a thing
+
+4
+00:00:09,169 --> 00:00:10,570
+that a lot of people wanted to do
+
+5
+00:00:10,570 --> 00:00:13,600
+and only a few people have been
+very enthusiastic about.
+
+6
+00:00:13,840 --> 00:00:18,000
+You probably have been dabbling
+with JavaScript or you've been writing JavaScript,
+
+7
+00:00:18,000 --> 00:00:21,369
+but most of the time
+you will have used other people's code.
+
+8
+00:00:21,369 --> 00:00:25,519
+When JavaScript came around,
+it was just something that we added into websites
+
+9
+00:00:25,520 --> 00:00:27,900
+and we learned by looking 
+at other people's code.
+
+10
+00:00:28,060 --> 00:00:32,419
+The view source was our teacher
+and we actually looked at what was going on,
+
+11
+00:00:32,419 --> 00:00:34,489
+copied and pasted code from somebody else,
+
+12
+00:00:34,489 --> 00:00:37,480
+changed a few numbers around,
+hoped nothing broke,
+
+13
+00:00:37,480 --> 00:00:40,740
+and then we actually had a
+JavaScript that was our own.
+
+14
+00:00:41,320 --> 00:00:43,100
+This has changed a lot.
+
+15
+00:00:43,110 --> 00:00:46,109
+If you've been using JavaScript
+for quite some while and you go back
+
+16
+00:00:46,109 --> 00:00:49,000
+into the world right now
+and you realise that people talk
+
+17
+00:00:49,000 --> 00:00:52,559
+about things like NPM,
+like Node, like Webpack,
+
+18
+00:00:52,559 --> 00:00:55,660
+the language seems to be
+much more complex than it used to be.
+
+19
+00:00:55,660 --> 00:00:58,760
+It used to be more like Java,
+Ruby, or these kind of languages.
+
+20
+00:00:59,020 --> 00:01:03,300
+And I want you to understand that
+this is normal and this is a normal evolution
+
+21
+00:01:03,309 --> 00:01:06,100
+and you don't have to 
+feel inadequate about it,
+
+22
+00:01:06,100 --> 00:01:07,780
+you don't have to feel worried about it,
+
+23
+00:01:08,020 --> 00:01:11,000
+it just means that the 
+versatility of JavaScript itself
+
+24
+00:01:11,420 --> 00:01:14,300
+made it possible for it to go 
+in two different directions.
+
+25
+00:01:14,940 --> 00:01:18,240
+So when you become a JavaScript developer
+nowadays, you could be anything.
+
+26
+00:01:18,259 --> 00:01:19,799
+You could be just a web developer
+
+27
+00:01:19,800 --> 00:01:23,020
+that does some beautiful things
+on websites with JavaScript,
+
+28
+00:01:23,160 --> 00:01:27,780
+you could be a Node developer
+who builds servers, API's, micro-services,
+
+29
+00:01:27,780 --> 00:01:29,240
+all these kind of cool things,
+
+30
+00:01:29,329 --> 00:01:32,700
+or you could be even 
+a hardcore app developer
+
+31
+00:01:32,700 --> 00:01:36,320
+that builds something like
+Slack or Atom in the JavaScript,
+
+32
+00:01:36,320 --> 00:01:40,560
+HTML, and CSS, and then
+packages it up as an application itself.
+
+33
+00:01:41,100 --> 00:01:43,720
+Now if you think back what 
+JavaScript used to be,
+
+34
+00:01:43,729 --> 00:01:46,270
+you will get into a lot 
+of resources online
+
+35
+00:01:46,270 --> 00:01:50,300
+that are very, very outdated
+and very very dangerous to learn nowadays.
+
+36
+00:01:50,880 --> 00:01:55,180
+Take for example w3schools here,
+which is always the first result in Google
+
+37
+00:01:55,180 --> 00:01:57,380
+when you google
+something random in JavaScript.
+
+38
+00:01:57,640 --> 00:02:01,600
+It teaches you a lot of ways how JavaScript
+used to be back in the days
+
+39
+00:02:01,600 --> 00:02:04,980
+and and some of the JavaScript syntax
+that was back in the days.
+
+40
+00:02:05,320 --> 00:02:09,360
+But a lot of this JavaScript is not how
+you write things nowadays anymore.
+
+41
+00:02:09,720 --> 00:02:13,480
+As somebody who's been 
+using these resources for years,
+
+42
+00:02:13,900 --> 00:02:16,800
+we have a few hang-ups 
+that we should get rid of.
+
+43
+00:02:17,220 --> 00:02:19,960
+One of the hang-ups is that browsers
+will always be terrible
+
+44
+00:02:19,960 --> 00:02:21,713
+and browsers will always be in our way
+
+45
+00:02:21,720 --> 00:02:24,180
+and not supporting the 
+things that we want to do.
+
+46
+00:02:24,540 --> 00:02:28,540
+Another hang-up is that our end users
+will not upgrade their environments
+
+47
+00:02:28,540 --> 00:02:31,500
+and will have a problem with 
+new features that we want to have.
+
+48
+00:02:31,960 --> 00:02:35,420
+We should free ourselves from
+these hang-ups and from these fears,
+
+49
+00:02:35,420 --> 00:02:40,280
+and that's why we need new resources
+to learn JavaScript and to find new information.
+
+50
+00:02:40,780 --> 00:02:45,060
+So if you want to look up something nowadays
+in JavaScript, there's a a few resources
+
+51
+00:02:45,060 --> 00:02:48,580
+I want to quickly go 
+through with you to play with.
+
+52
+00:02:48,920 --> 00:02:50,820
+These are the things where 
+you should always go to
+
+53
+00:02:50,820 --> 00:02:52,620
+if you want to find out something new,
+
+54
+00:02:52,860 --> 00:02:56,260
+and they're always up to date
+because they're community driven environments.
+
+55
+00:02:56,900 --> 00:02:58,868
+So when JavaScript 
+became a thing,
+
+56
+00:02:58,868 --> 00:03:02,300
+a lot of people stopped 
+writing JavaScript itself
+
+57
+00:03:02,300 --> 00:03:04,340
+because browsers were problematic –
+
+58
+00:03:04,340 --> 00:03:09,130
+like Internet Explorer, Netscape,
+whatever, Firefox, later on Opera.
+
+59
+00:03:09,130 --> 00:03:11,120
+All of them had different ways of dealing
+
+60
+00:03:11,120 --> 00:03:15,020
+with the language because the language
+was not properly standardised as well.
+
+61
+00:03:15,240 --> 00:03:18,240
+And we had no web standards
+before that time as well.
+
+62
+00:03:18,440 --> 00:03:23,360
+When the web standard movement came around
+and HTML5 became a thing, that changed drastically.
+
+63
+00:03:23,600 --> 00:03:28,340
+Our resources nowadays,
+our browsers nowadays are standards-based
+
+64
+00:03:28,350 --> 00:03:31,450
+and agree with each other
+what different technologies should be used
+
+65
+00:03:31,450 --> 00:03:33,880
+and what becomes a standard
+and what doesn't.
+
+66
+00:03:33,880 --> 00:03:37,720
+We don't have to run after the innovation
+of browser makers anymore
+
+67
+00:03:37,720 --> 00:03:40,920
+and do things for one browser
+and differently for another browser.
+
+68
+00:03:40,920 --> 00:03:42,660
+And that is a wonderful thing.
+
+69
+00:03:42,840 --> 00:03:45,140
+One of the main things 
+that people used to do
+
+70
+00:03:45,150 --> 00:03:47,310
+is use jQuery instead of JavaScript
+
+71
+00:03:47,310 --> 00:03:51,140
+because jQuery helped us
+to level the playing field,
+
+72
+00:03:51,140 --> 00:03:53,970
+to actually give the browsers
+the same experiences,
+
+73
+00:03:53,970 --> 00:03:56,180
+and we didn't have
+to think about these anymore.
+
+74
+00:03:56,500 --> 00:04:01,480
+But nowadays, browsers are so good
+and the standards have been going so far,
+
+75
+00:04:01,490 --> 00:04:06,750
+that you most likely don't need jQuery anymore
+because you're actually adding extra code
+
+76
+00:04:06,750 --> 00:04:09,018
+for an environment 
+that doesn't exist anymore
+
+77
+00:04:09,020 --> 00:04:11,480
+and for browsers that 
+shouldn't be in use anymore.
+
+78
+00:04:11,800 --> 00:04:14,100
+The first resource I want 
+you to get excited about
+
+79
+00:04:14,100 --> 00:04:16,960
+because, I'm very excited 
+about it, is called caniuse.com.
+
+80
+00:04:17,080 --> 00:04:19,760
+caniuse.com is a resource site
+
+81
+00:04:19,760 --> 00:04:22,540
+that tells you what 
+browsers can do these days
+
+82
+00:04:22,540 --> 00:04:25,260
+and which browsers support
+which feature in what format.
+
+83
+00:04:25,640 --> 00:04:28,420
+The most common use case
+for caniuse.com is that you will go there
+
+84
+00:04:28,420 --> 00:04:32,100
+to find about support for something,
+say for example, the fetch API.
+
+85
+00:04:32,320 --> 00:04:36,480
+Once you type that in, you already get
+the results telling you what fetch is,
+
+86
+00:04:36,480 --> 00:04:39,380
+a modern replacement 
+for XMLHttpRequest,
+
+87
+00:04:39,520 --> 00:04:41,360
+and which browsers support it.
+
+88
+00:04:41,360 --> 00:04:43,720
+You can also see the red browsers
+that don't support it
+
+89
+00:04:43,720 --> 00:04:47,700
+and sometimes there are yellow browsers
+that support it but have problems.
+
+90
+00:04:47,980 --> 00:04:50,920
+Once there are any problems,
+it will be listed with known issues here
+
+91
+00:04:50,920 --> 00:04:52,360
+where you can work around them.
+
+92
+00:04:52,360 --> 00:04:53,860
+In this case, we don't have any.
+
+93
+00:04:53,860 --> 00:04:55,660
+But other features might have them.
+
+94
+00:04:55,660 --> 00:04:59,300
+So you know where the problems are,
+when they will be fixed, and what's happening.
+
+95
+00:04:59,800 --> 00:05:02,280
+The other thing that for 
+every feature that you look up,
+
+96
+00:05:02,290 --> 00:05:03,790
+you will have a resources tab here
+
+97
+00:05:03,790 --> 00:05:08,240
+that show you about the specification,
+having a demo, going for polyfill,
+
+98
+00:05:08,400 --> 00:05:10,280
+and then have the different platforms
+
+99
+00:05:10,290 --> 00:05:14,720
+like Internet Explorer, Edge, Chrome,
+Firefox, and WebKit, and seeing when
+
+100
+00:05:14,720 --> 00:05:18,320
+they have been shipping it or what
+the problem with the status is right now.
+
+101
+00:05:18,780 --> 00:05:21,900
+So, if you always wonder 
+about having a new feature
+
+102
+00:05:21,910 --> 00:05:23,840
+that somebody's excited 
+about and you wonder
+
+103
+00:05:23,840 --> 00:05:26,760
+if you can use it in 
+your products with your end-users,
+
+104
+00:05:27,060 --> 00:05:29,020
+this is a great resource to look at.
+
+105
+00:05:29,180 --> 00:05:31,100
+It's continuously maintained.
+
+106
+00:05:31,100 --> 00:05:34,840
+All the browser makers are giving feedback
+to the maintainers of this product.
+
+107
+00:05:35,100 --> 00:05:38,700
+So this is where to learn if it's safe to
+use something
+
+108
+00:05:38,710 --> 00:05:41,030
+and also get excited about using it.
+
+109
+00:05:41,030 --> 00:05:43,500
+If you want to know about 
+the language JavaScript itself –
+
+110
+00:05:43,500 --> 00:05:46,340
+So that's for the hardcore 
+nerds about JavaScript –
+
+111
+00:05:46,340 --> 00:05:51,120
+the TC39 ECMA group is actually 
+the people who write the language.
+
+112
+00:05:51,440 --> 00:05:54,620
+This is the consortium
+or this is the technical committee
+
+113
+00:05:54,620 --> 00:05:56,660
+that creates the next 
+version of that language
+
+114
+00:05:56,660 --> 00:05:59,120
+and maintains the current 
+version of that language.
+
+115
+00:05:59,180 --> 00:06:02,420
+So this is the main source
+for the language itself,
+
+116
+00:06:02,420 --> 00:06:04,700
+not some other resource
+that might be saying, like,
+
+117
+00:06:04,700 --> 00:06:05,700
+we know JavaScript.
+
+118
+00:06:05,700 --> 00:06:07,510
+These are the people who make it.
+
+119
+00:06:07,510 --> 00:06:11,850
+If you want to look up something in JavaScript,
+and you want to go and see, like,
+
+120
+00:06:11,850 --> 00:06:13,630
+"How does something work?"
+
+121
+00:06:13,630 --> 00:06:16,040
+The MDN Web Docs, to me,
+are the best resource.
+
+122
+00:06:16,040 --> 00:06:19,389
+They're not the best resource
+because I used to work for Mozilla,
+
+123
+00:06:19,389 --> 00:06:21,480
+but this is because where 
+all the browser makers
+
+124
+00:06:21,480 --> 00:06:23,980
+realised they should 
+put their information.
+
+125
+00:06:24,340 --> 00:06:28,980
+The MDN Web Docs is an open wiki.
+So you can edit it, you can you can take part
+
+126
+00:06:28,980 --> 00:06:34,110
+in this community as well, and you will –
+and you will see features that get updated
+
+127
+00:06:34,110 --> 00:06:36,890
+much faster than any 
+other resource out there.
+
+128
+00:06:36,890 --> 00:06:42,160
+So if you look up something like,
+for example array map, in this case,
+
+129
+00:06:42,480 --> 00:06:46,040
+you will not only get 
+an example of what it is,
+
+130
+00:06:46,040 --> 00:06:48,920
+but you will get all kinds 
+of information about what it means.
+
+131
+00:06:48,920 --> 00:06:52,600
+So it explains to you that the map method
+creates a new array with the results
+
+132
+00:06:52,600 --> 00:06:55,290
+of calling a provided function
+and so on and so forth.
+
+133
+00:06:55,290 --> 00:07:00,280
+You can run these examples live here,
+you can then reset them to undo them as well,
+
+134
+00:07:00,280 --> 00:07:04,180
+and then you get detailed information
+about the syntax of it, how to use map,
+
+135
+00:07:04,180 --> 00:07:05,680
+and how to use the callbacks.
+
+136
+00:07:05,920 --> 00:07:09,840
+You have a listing of the specifications
+explaining what different things mean,
+
+137
+00:07:09,850 --> 00:07:12,860
+and you also have 
+a browser compatibility table
+
+138
+00:07:12,860 --> 00:07:15,610
+listed in here which is, weirdly enough,
+
+139
+00:07:15,610 --> 00:07:17,290
+coming from caniuse.com.
+
+140
+00:07:17,290 --> 00:07:19,860
+So these two sites are tightly linked.
+
+141
+00:07:19,860 --> 00:07:22,460
+So this information will always
+be up-to-date as well.
+
+142
+00:07:23,300 --> 00:07:27,160
+If you want to know about the different browsers
+and how they work with JavaScript,
+
+143
+00:07:27,169 --> 00:07:28,169
+you're in luck as well.
+
+144
+00:07:28,169 --> 00:07:30,380
+Back in the days when I started
+as a JavaScript developer,
+
+145
+00:07:30,380 --> 00:07:31,480
+these were black holes.
+
+146
+00:07:31,480 --> 00:07:34,640
+Nobody knew what was coming,
+nobody knew what was going on.
+
+147
+00:07:34,650 --> 00:07:38,990
+Nowadays, all browsers have resources
+and even Twitter accounts
+
+148
+00:07:38,990 --> 00:07:41,300
+where you find new 
+information about them.
+
+149
+00:07:41,300 --> 00:07:42,880
+This is the Microsoft one for Edge.
+
+150
+00:07:42,880 --> 00:07:45,130
+For Chrome, there's a Chromium blog,
+
+151
+00:07:45,130 --> 00:07:47,580
+for Safari, there's the WebKit blog,
+
+152
+00:07:47,580 --> 00:07:49,990
+for Firefox, there's, 
+of course, the Firefox blog,
+
+153
+00:07:49,990 --> 00:07:54,750
+and for others, like 
+Samson browser, Opera browser,
+
+154
+00:07:54,750 --> 00:07:56,960
+all browser makers are very open to developers,
+
+155
+00:07:56,960 --> 00:07:58,940
+to talk to them and go for it.
+
+156
+00:07:59,520 --> 00:08:01,610
+So these are some
+of the resources to look at
+
+157
+00:08:01,610 --> 00:08:04,770
+when you want to start working
+with JavaScript nowadays.
+
+158
+00:08:04,770 --> 00:08:08,910
+These are up-to-date resources,
+editable resources, where you can take part
+
+159
+00:08:08,910 --> 00:08:11,100
+and you can make them 
+better if you want to.
+
+160
+00:08:11,360 --> 00:08:14,180
+Don't just randomly Google 
+for problems in JavaScript,
+
+161
+00:08:14,180 --> 00:08:15,700
+then copy and paste the code,
+
+162
+00:08:15,940 --> 00:08:20,040
+take those resources and learn JavaScript
+from the makers of JavaScript
+
+163
+00:08:20,040 --> 00:08:24,060
+and from the implementers of JavaScript
+and you will be a much happier developer.
+
+164
+00:08:24,320 --> 00:08:27,380
+So now you know some
+of the resources that you can keep revisiting
+
+165
+00:08:27,390 --> 00:08:30,820
+and learning that JavaScript
+is not what it used to be.
+
+166
+00:08:30,820 --> 00:08:32,900
+In the next video, we're 
+going to talk about some
+
+167
+00:08:32,900 --> 00:08:35,110
+of the features that 
+JavaScript is doing nowadays
+
+168
+00:08:35,110 --> 00:08:38,380
+or some of the implementations
+that JavaScript has that you might not
+
+169
+00:08:38,380 --> 00:08:40,400
+have been thinking about
+and you haven't seen before.
+
+170
+00:08:40,440 --> 00:08:41,180
+=======================
+==   CLOSED CAPTIONS   ==
+== BY YERKCOL PTY LTD ==
+=======================
+
