@@ -1,0 +1,554 @@
+1
+00:00:00,460 --> 00:00:02,900
+As somebody who's learned
+JavaScript a long time ago
+
+2
+00:00:02,900 --> 00:00:05,680
+who actually is pretty
+much old-school about it,
+
+3
+00:00:05,680 --> 00:00:09,130
+you might think JavaScript is something
+that you just put into HTML pages
+
+4
+00:00:09,130 --> 00:00:12,559
+to make them more interactive
+and to do something like loading up
+
+5
+00:00:12,560 --> 00:00:15,520
+something in the background
+or downloading something in the background
+
+6
+00:00:15,520 --> 00:00:17,300
+or making something more interactive.
+
+7
+00:00:17,740 --> 00:00:21,300
+JavaScript has moved past
+that quite some time ago.
+
+8
+00:00:21,300 --> 00:00:25,669
+When HTML5 became a specification,
+all of a sudden, the HTML stack
+
+9
+00:00:25,669 --> 00:00:29,390
+became something that is more dependent
+on JavaScript than before,
+
+10
+00:00:29,390 --> 00:00:32,660
+because some of the features that
+we needed didn't make any sense without it.
+
+11
+00:00:32,660 --> 00:00:36,399
+A canvas element doesn't
+do anything – it's just a canvas.
+
+12
+00:00:36,399 --> 00:00:38,510
+That's what's actually
+implied in the name.
+
+13
+00:00:38,510 --> 00:00:41,280
+So you needed JavaScript
+to do something with that.
+
+14
+00:00:41,280 --> 00:00:44,740
+Some of the other features of JavaScript
+have gone the same way.
+
+15
+00:00:44,740 --> 00:00:49,110
+So the idea of having a text editor
+and writing something in an HTML page
+
+16
+00:00:49,110 --> 00:00:52,200
+and opening it in the browser
+just to have JavaScript
+
+17
+00:00:52,200 --> 00:00:53,760
+is pretty much old-school
+
+18
+00:00:53,760 --> 00:00:56,989
+and you should be thinking
+about it more as a platform
+
+19
+00:00:56,989 --> 00:01:00,550
+or as an environment
+to build something with.
+
+20
+00:01:00,550 --> 00:01:02,469
+If you take a look around the web
+
+21
+00:01:02,469 --> 00:01:06,350
+and see what JavaScript is doing
+right now, there's manifold things.
+
+22
+00:01:06,350 --> 00:01:08,711
+There are all kinds of things
+that we do with JavaScript.
+
+23
+00:01:08,720 --> 00:01:11,340
+And you might not be aware
+of what's going on there.
+
+24
+00:01:11,540 --> 00:01:13,780
+Take, for example, something like three.js
+
+25
+00:01:13,780 --> 00:01:19,030
+three.js is a 3D library that allows you
+to do 3D animations in JavaScript,
+
+26
+00:01:19,030 --> 00:01:22,130
+something that, in the past,
+we always used Flash for.
+
+27
+00:01:22,130 --> 00:01:27,119
+So JavaScript is a language now
+that is used for highly creative things
+
+28
+00:01:27,119 --> 00:01:30,390
+rather than just something
+that is on the web to make it prettier
+
+29
+00:01:30,390 --> 00:01:34,020
+or to make an animated text
+in the background scrolling around.
+
+30
+00:01:34,020 --> 00:01:36,159
+Things we've done
+in with Flash in the past
+
+31
+00:01:36,159 --> 00:01:39,119
+are now firmly in the space
+of JavaScript because JavaScript
+
+32
+00:01:39,119 --> 00:01:42,759
+is supported in all the browsers
+and doesn't need to be downloaded
+
+33
+00:01:42,759 --> 00:01:45,470
+and doesn't need to be installed
+like Flash used to be,
+
+34
+00:01:45,470 --> 00:01:48,160
+QuickTime used to be,
+or even Silverlight used to be.
+
+35
+00:01:48,780 --> 00:01:52,340
+Other things that JavaScript
+is doing are actually becoming
+
+36
+00:01:52,340 --> 00:01:54,610
+a part of your day-to-day life.
+
+37
+00:01:54,610 --> 00:01:57,840
+Slack, for example, is probably a tool
+that you've been using,
+
+38
+00:01:57,840 --> 00:02:00,119
+and Slack is written in JavaScript
+
+39
+00:02:00,120 --> 00:02:03,149
+with HTML and CSS
+as the other two technologies.
+
+40
+00:02:03,660 --> 00:02:08,140
+So, in essence, what we have
+with Slack is an application
+
+41
+00:02:08,150 --> 00:02:11,690
+that would run in the browser
+packaged up in an installer
+
+42
+00:02:11,690 --> 00:02:15,750
+so you can use them on the desktop,
+on your mobile phone, and everywhere else.
+
+43
+00:02:15,750 --> 00:02:18,900
+The platform this is
+based on is called Electron.
+
+44
+00:02:18,900 --> 00:02:23,100
+And Electron allows you to write
+JavaScript and HTML and CSS
+
+45
+00:02:23,100 --> 00:02:27,500
+and then package it up as an application
+to get it installed on your operating systems
+
+46
+00:02:27,500 --> 00:02:29,640
+and on the different mobile platforms.
+
+47
+00:02:29,960 --> 00:02:35,620
+So JavaScript written for Electron
+is much more likely to be easier
+
+48
+00:02:35,630 --> 00:02:38,950
+for some developers to do
+because you don't have that unknown
+
+49
+00:02:38,950 --> 00:02:40,780
+of which browser 
+it's gonna run in.
+
+50
+00:02:40,780 --> 00:02:44,220
+You don't have the issue of your end users
+being able to turn things on and off
+
+51
+00:02:44,220 --> 00:02:48,610
+because you control the code
+and you also control the distribution
+
+52
+00:02:48,610 --> 00:02:52,120
+and the install process
+in the operating systems themselves.
+
+53
+00:02:52,900 --> 00:02:56,460
+One big change in the JavaScript space
+was when Node came out.
+
+54
+00:02:56,460 --> 00:03:00,730
+Node is a server-side version
+of JavaScript where you can write anything
+
+55
+00:03:00,730 --> 00:03:06,480
+that you used to write in things like Java,
+PHP, or Python - now in JavaScript itself.
+
+56
+00:03:06,880 --> 00:03:12,200
+So what node allows you to do
+is write servers, is run your microservices,
+
+57
+00:03:12,200 --> 00:03:14,780
+write anything that you
+wanted to have in these older
+
+58
+00:03:14,780 --> 00:03:18,360
+much more complex
+languages now in JavaScript.
+
+59
+00:03:18,860 --> 00:03:21,620
+Node is installable
+on every platform out there.
+
+60
+00:03:21,630 --> 00:03:25,260
+And you will, in most cases,
+want to have Node installed
+
+61
+00:03:25,260 --> 00:03:29,030
+because the tooling of JavaScript
+are written in Node
+
+62
+00:03:29,030 --> 00:03:32,090
+and which allow you to be much
+more effective as a JavaScript developer
+
+63
+00:03:32,090 --> 00:03:35,630
+is something to be really excited
+about and something to use.
+
+64
+00:03:35,630 --> 00:03:40,670
+Now, as Node is server-side
+and Node is a different way of writing code,
+
+65
+00:03:40,670 --> 00:03:43,840
+the rules applying for being
+a JavaScript developer in Node
+
+66
+00:03:43,880 --> 00:03:47,220
+are different than being a JavaScript
+developer that writes things for the web.
+
+67
+00:03:47,780 --> 00:03:50,500
+So don't get too frustrated
+if you don't understand this
+
+68
+00:03:50,500 --> 00:03:52,580
+and you don't want
+to get into that space.
+
+69
+00:03:52,580 --> 00:03:55,230
+But there are still many things in Node
+that are very effective
+
+70
+00:03:55,230 --> 00:03:57,380
+and make it much more effective to use.
+
+71
+00:03:58,120 --> 00:04:01,420
+NPM is the package manager of JavaScript.
+
+72
+00:04:01,430 --> 00:04:07,000
+So Node solutions are now written in packages
+and then can be installed as packages
+
+73
+00:04:07,000 --> 00:04:11,340
+in your operating systems
+or also used as packages in your other code.
+
+74
+00:04:11,740 --> 00:04:15,490
+As somebody who is old-school JavaScript
+like me, this sounds very complex.
+
+75
+00:04:15,490 --> 00:04:16,949
+And to a degree, it is.
+
+76
+00:04:16,949 --> 00:04:20,180
+But as somebody coming
+from the Perl world or a Java world,
+
+77
+00:04:20,180 --> 00:04:22,740
+this is a very simple
+and normal way of development.
+
+78
+00:04:23,500 --> 00:04:28,340
+So what we have with NPM and Node
+is JavaScript leavening up
+
+79
+00:04:28,349 --> 00:04:33,110
+to becoming a real software platform
+to write huge applications in
+
+80
+00:04:33,110 --> 00:04:37,409
+and to build huge applications
+put together by reusable components.
+
+81
+00:04:37,409 --> 00:04:40,030
+As people were writing
+massive applications in JavaScript,
+
+82
+00:04:40,030 --> 00:04:41,920
+the language showed some of its problems.
+
+83
+00:04:42,440 --> 00:04:46,159
+The nature of JavaScript
+that it doesn't have any "types"
+
+84
+00:04:46,159 --> 00:04:48,960
+made it hard for people
+who came from other languages
+
+85
+00:04:48,960 --> 00:04:51,889
+to write thousands and thousands
+of lines of JavaScript
+
+86
+00:04:51,889 --> 00:04:54,280
+and be able to refactor them later on.
+
+87
+00:04:54,280 --> 00:04:57,099
+Typescript solves that problem
+by putting a type system
+
+88
+00:04:57,099 --> 00:05:01,389
+on top of JavaScript, and that way
+makes it much more scalable
+
+89
+00:05:01,389 --> 00:05:03,400
+and much, much easier to refactor.
+
+90
+00:05:03,660 --> 00:05:07,580
+So, if you write huge applications
+in JavaScript, probably Typescript
+
+91
+00:05:07,580 --> 00:05:09,340
+is a good idea to think about.
+
+92
+00:05:09,340 --> 00:05:13,140
+And Typescript also has the benefit
+of being stricter in its syntax
+
+93
+00:05:13,150 --> 00:05:17,789
+than JavaScript is, so you can use
+the Typescript linter – later on,
+
+94
+00:05:17,789 --> 00:05:21,509
+we're gonna do this in another video –
+to show you what your JavaScript errors are
+
+95
+00:05:21,509 --> 00:05:23,240
+while you're actually writing them.
+
+96
+00:05:23,720 --> 00:05:25,280
+I don't want you to get discouraged
+
+97
+00:05:25,280 --> 00:05:27,220
+by looking at all these tools 
+and thinking now,
+
+98
+00:05:27,220 --> 00:05:29,300
+"Oh, my God, I have to understand all of them."
+
+99
+00:05:29,310 --> 00:05:32,300
+These are different options
+of where JavaScript is being used
+
+100
+00:05:32,300 --> 00:05:35,370
+and where you can become
+a JavaScript developer
+
+101
+00:05:35,370 --> 00:05:38,560
+or can relearn being a JavaScript developer.
+
+102
+00:05:38,760 --> 00:05:43,720
+Not everybody has to become a Node developer
+or has to use Electron to build applications.
+
+103
+00:05:43,729 --> 00:05:46,870
+You can still use JavaScript
+to build normal websites
+
+104
+00:05:46,870 --> 00:05:51,680
+and to package them up in other ways
+or not touch the server-side at all.
+
+105
+00:05:51,680 --> 00:05:56,600
+So what JavaScript is, because of its
+versatility as a language, it's a "pick and mix".
+
+106
+00:05:56,680 --> 00:06:00,280
+It's like you take the things
+that you want to use and, career-wise,
+
+107
+00:06:00,280 --> 00:06:04,529
+I would actually advise people
+to find one thing that really gets you excited
+
+108
+00:06:04,529 --> 00:06:08,029
+and concentrate on that one
+rather than being a jack-of-all-trades
+
+109
+00:06:08,029 --> 00:06:12,789
+and hoping you have enough time
+to keep up with all these different implementations,
+
+110
+00:06:12,789 --> 00:06:15,349
+because most likely,
+you will not have that time.
+
+111
+00:06:15,349 --> 00:06:17,729
+In the next video, we're going to talk
+about some of the options
+
+112
+00:06:17,729 --> 00:06:21,710
+that you have to become a JavaScript developer
+or sometimes you don't really want
+
+113
+00:06:21,710 --> 00:06:24,700
+to write JavaScript itself but use
+something else that makes you more effective.
+
+114
+00:06:24,700 --> 00:06:26,000
+=======================
+==   CLOSED CAPTIONS   ==
+== BY YERKCOL PTY LTD ==
+=======================
+
