@@ -1,0 +1,871 @@
+1
+00:00:00,489 --> 00:00:02,649
+Welcome back to
+Rediscovering JavaScript.
+
+2
+00:00:02,649 --> 00:00:05,570
+This time, I want to talk about
+how our development environment
+
+3
+00:00:05,570 --> 00:00:08,910
+changed over the last few years
+and some of the things you might not
+
+4
+00:00:08,910 --> 00:00:12,959
+be using already but you should
+to make yourself much more effective.
+
+5
+00:00:12,959 --> 00:00:15,289
+There's always a bit of a
+weird thing telling people, like,
+
+6
+00:00:15,289 --> 00:00:19,090
+"You need to learn this to be more
+effective and feels like a lot of work".
+
+7
+00:00:19,090 --> 00:00:22,099
+But some of the things I'm going to
+show you right now are so common
+
+8
+00:00:22,100 --> 00:00:26,330
+and are so useful that it actually
+makes no sense not to use them.
+
+9
+00:00:26,580 --> 00:00:29,560
+We were always super-excited
+as JavaScript developers that all we needed
+
+10
+00:00:29,570 --> 00:00:33,540
+was a text editor and the browser
+to execute our JavaScript in.
+
+11
+00:00:33,540 --> 00:00:37,410
+This has changed with JavaScript
+now being different than it was before.
+
+12
+00:00:37,410 --> 00:00:41,040
+And also the environments that
+we use have changed immensely.
+
+13
+00:00:41,040 --> 00:00:44,410
+The first thing to think about
+is how browsers have changed.
+
+14
+00:00:44,410 --> 00:00:46,980
+Browsers are not the black holes
+any longer where we don't know
+
+15
+00:00:46,980 --> 00:00:50,400
+what's happening and how much
+support they have for JavaScript.
+
+16
+00:00:50,400 --> 00:00:54,800
+It's also almost impossible nowadays
+to turn off JavaScript in a browser.
+
+17
+00:00:54,800 --> 00:00:57,400
+It was much easier for users
+back in the day to do so.
+
+18
+00:00:57,850 --> 00:01:01,100
+But we have a problem in browsers
+nowadays as people that have add-ons
+
+19
+00:01:01,100 --> 00:01:04,700
+like ad blockers and these kind of things
+that might block your JavaScript.
+
+20
+00:01:04,700 --> 00:01:07,800
+But as users themselves,
+people are much more okay
+
+21
+00:01:07,800 --> 00:01:11,800
+with JavaScript being active in the
+browsers and most of them don't even know it.
+
+22
+00:01:12,500 --> 00:01:17,500
+All browsers are nowadays evergreen,
+so they're actually coming up every two days,
+
+23
+00:01:17,509 --> 00:01:20,380
+every two weeks, every month,
+sometimes it's up to three months
+
+24
+00:01:20,380 --> 00:01:21,820
+for a new version to come out.
+
+25
+00:01:21,820 --> 00:01:25,240
+But it's not like the four or five years
+that we used to have between different versions
+
+26
+00:01:25,240 --> 00:01:28,090
+of Internet Explorer, and people didn't upgrade.
+
+27
+00:01:28,090 --> 00:01:32,109
+So upgrading their browsers is much,
+much easier than it used to be,
+
+28
+00:01:32,109 --> 00:01:34,090
+and that means, for us as
+JavaScript developers,
+
+29
+00:01:34,090 --> 00:01:35,720
+we have new features to play with.
+
+30
+00:01:36,180 --> 00:01:38,880
+Every browser also comes
+with developer tools built in.
+
+31
+00:01:38,880 --> 00:01:41,069
+So this, for example – here's Firefox.
+
+32
+00:01:41,069 --> 00:01:45,049
+And if I type the inspect element,
+I can see I've got my HTML editor,
+
+33
+00:01:45,049 --> 00:01:47,880
+I've got a debugger where
+I can debug my JavaScript
+
+34
+00:01:47,880 --> 00:01:49,749
+and we're going
+to come back to that later.
+
+35
+00:01:49,749 --> 00:01:51,130
+I've got style editors.
+
+36
+00:01:51,130 --> 00:01:56,280
+I've got all kinds of network insights
+and performance insights for my applications.
+
+37
+00:01:56,280 --> 00:01:57,820
+And I have a console in there.
+
+38
+00:01:57,820 --> 00:02:00,950
+So if you want to just try out
+some JavaScript, you can use that
+
+39
+00:02:00,950 --> 00:02:04,359
+to actually write JavaScript
+and do like: 3 + 2
+
+40
+00:02:04,359 --> 00:02:06,740
+which is math, not JavaScript.
+
+41
+00:02:06,740 --> 00:02:09,720
+But JavaScript editor
+now shows you this is 5.
+
+42
+00:02:10,490 --> 00:02:14,640
+The next thing that browsers have –
+all of them have developer tools.
+
+43
+00:02:14,650 --> 00:02:17,390
+So there's Firefox, of course,
+with the Firefox tools.
+
+44
+00:02:17,390 --> 00:02:19,330
+There's Chrome with the
+Chromium dev tools,
+
+45
+00:02:19,330 --> 00:02:20,580
+which probably are the ones
+
+46
+00:02:20,580 --> 00:02:23,230
+that are the most
+sophisticated ones at the moment.
+
+47
+00:02:23,230 --> 00:02:26,360
+Edge has the F12 Dev Tools
+which are much better than people think
+
+48
+00:02:26,360 --> 00:02:28,360
+because we haven't looked at them for years.
+
+49
+00:02:28,360 --> 00:02:31,310
+And even Safari has some
+really good developer tools in there.
+
+50
+00:02:31,310 --> 00:02:33,840
+But you need to turn it into
+a developer mode first
+
+51
+00:02:33,840 --> 00:02:35,580
+to show these developer tools.
+
+52
+00:02:35,860 --> 00:02:38,280
+Mobile browsers don't necessarily
+have developer tools,
+
+53
+00:02:38,280 --> 00:02:42,110
+but a lot of them allow you to connect
+from your desktop to your mobile phone
+
+54
+00:02:42,110 --> 00:02:45,240
+to debug the browser
+in these developer tools as well.
+
+55
+00:02:45,680 --> 00:02:49,710
+So all browsers over the last few years
+have become not only ways
+
+56
+00:02:49,710 --> 00:02:53,480
+to display and execute JavaScript
+but also development environments
+
+57
+00:02:53,480 --> 00:02:56,320
+to build JavaScript in
+and to write JavaScript in.
+
+58
+00:02:57,070 --> 00:03:01,420
+The next step that we have
+is that we replaced the normal text messaging
+
+59
+00:03:01,420 --> 00:03:05,360
+or the text editors that we have
+with more sophisticated editors.
+
+60
+00:03:05,500 --> 00:03:07,900
+We're going to go into detail later on
+as to what that means
+
+61
+00:03:07,900 --> 00:03:11,710
+and what benefits a good editor
+has for you, but suffice it to say,
+
+62
+00:03:11,710 --> 00:03:15,410
+a lot of them are hackable
+and that's the best thing about them.
+
+63
+00:03:15,410 --> 00:03:18,570
+These editors are written in languages
+that we can write ourselves –
+
+64
+00:03:18,570 --> 00:03:22,840
+we can extend them with extensions
+or we can write – be part of the main code
+
+65
+00:03:22,920 --> 00:03:24,840
+because all of them are open-source.
+
+66
+00:03:24,850 --> 00:03:28,650
+So our development environments,
+our editor environments have become
+
+67
+00:03:28,650 --> 00:03:31,970
+ways for us to contribute
+rather than just hoping that an editor
+
+68
+00:03:31,970 --> 00:03:35,430
+will have a certain feature
+and us jumping from editor to editor
+
+69
+00:03:35,430 --> 00:03:40,560
+and having to learn all the different features
+of them to become more effective in using them.
+
+70
+00:03:41,280 --> 00:03:45,060
+The next thing that a lot of people
+are afraid of and wondering why
+
+71
+00:03:45,060 --> 00:03:47,240
+we should be using it is the terminal.
+
+72
+00:03:48,350 --> 00:03:52,320
+The terminal, in this case here –
+it's now indistinct on my OSX machine
+
+73
+00:03:52,320 --> 00:03:55,370
+or on my Windows machine,
+I've got the Ubuntu shell as well –
+
+74
+00:03:55,370 --> 00:03:57,190
+is basically a UNIX shell.
+
+75
+00:03:57,190 --> 00:04:01,700
+So it's going back to 1970's technologies
+and we always, as JavaScript developers,
+
+76
+00:04:01,700 --> 00:04:03,680
+wondered why we would ever need this.
+
+77
+00:04:03,680 --> 00:04:09,040
+People who wrote server-side technologies
+like Java, PHP, Perl were much more efficient
+
+78
+00:04:09,040 --> 00:04:11,900
+in those things and used to know them already.
+
+79
+00:04:11,900 --> 00:04:14,040
+We didn't think there was a necessity there.
+
+80
+00:04:14,040 --> 00:04:15,490
+With Node, that changed.
+
+81
+00:04:15,490 --> 00:04:18,030
+Node is JavaScript 
+that runs on the server side,
+
+82
+00:04:18,030 --> 00:04:19,329
+so everything you need to know
+
+83
+00:04:19,329 --> 00:04:23,319
+and you need to run Node in
+happens in the terminal.
+
+84
+00:04:23,319 --> 00:04:27,710
+That also means that a lot of JavaScript tools
+like build processes, package managing,
+
+85
+00:04:27,710 --> 00:04:30,680
+and so on and so forth
+happens in the terminal itself.
+
+86
+00:04:30,680 --> 00:04:32,460
+So it's a good skill to have.
+
+87
+00:04:32,840 --> 00:04:35,139
+It's not too hard to learn the terminal.
+
+88
+00:04:35,139 --> 00:04:38,419
+It feels a bit weird at times
+and sometimes you do a Node request
+
+89
+00:04:38,419 --> 00:04:40,900
+and you get, like, five screens
+of random error messages
+
+90
+00:04:40,900 --> 00:04:45,400
+and you don't know what's happening,
+but don't get discouraged by that.
+
+91
+00:04:45,400 --> 00:04:48,150
+What you can do in the terminal
+and what you do as a JavaScript developer
+
+92
+00:04:48,150 --> 00:04:52,610
+in the terminal is use build tools,
+use these scripts, use Node environments,
+
+93
+00:04:52,610 --> 00:04:56,569
+but also do your version controlling,
+and we're gonna have a special in-depth video
+
+94
+00:04:56,569 --> 00:04:58,960
+later on on version controlling
+and what it means to you
+
+95
+00:04:58,960 --> 00:05:01,130
+and why it's a beneficial thing.
+
+96
+00:05:01,130 --> 00:05:03,020
+So the terminal is 
+something good to know.
+
+97
+00:05:03,020 --> 00:05:05,740
+It's not necessary
+you have to be an expert in it.
+
+98
+00:05:05,740 --> 00:05:08,360
+But there's lots of good
+training materials out there.
+
+99
+00:05:08,360 --> 00:05:13,770
+And if you just start, for example, Node,
+you can run Javascript in your in your terminal
+
+100
+00:05:13,770 --> 00:05:18,150
+as well here, and you can get out of it
+by pressing Ctrl+C two times.
+
+101
+00:05:18,150 --> 00:05:22,180
+So you will not be an expert
+in the terminal overnight.
+
+102
+00:05:22,180 --> 00:05:25,430
+But it's something that you should be
+thinking about because far too many good things
+
+103
+00:05:25,430 --> 00:05:27,419
+are happening in the terminal these days –
+
+104
+00:05:27,419 --> 00:05:31,040
+which is pretty bizarre
+because it goes back to 1970's technology
+
+105
+00:05:31,040 --> 00:05:32,479
+when you think about it.
+
+106
+00:05:32,479 --> 00:05:34,850
+One other thing that we've 
+been using in the past
+
+107
+00:05:34,850 --> 00:05:36,449
+has been libraries and frameworks.
+
+108
+00:05:36,449 --> 00:05:39,580
+And, of course, there are
+new frameworks every week.
+
+109
+00:05:39,580 --> 00:05:43,389
+All of them make our lives easier,
+all of them are much better than plain JavaScript,
+
+110
+00:05:43,389 --> 00:05:45,919
+and some of them really,
+really make a difference.
+
+111
+00:05:45,919 --> 00:05:50,509
+So be excited about them, look into them,
+but always, always be aware
+
+112
+00:05:50,509 --> 00:05:54,659
+that being an expert in one version
+of one framework for this month
+
+113
+00:05:54,659 --> 00:05:57,539
+might be an amazing skill set,
+but in half a year's time,
+
+114
+00:05:57,539 --> 00:05:59,760
+it might not be a thing
+that you need any longer.
+
+115
+00:05:59,760 --> 00:06:04,319
+So, to me, frameworks and libraries
+are things that make our life easier
+
+116
+00:06:04,319 --> 00:06:08,740
+and are sometimes necessary
+or sometimes really good for project work.
+
+117
+00:06:08,740 --> 00:06:12,389
+But being an expert in only one
+of them might actually be a problem
+
+118
+00:06:12,389 --> 00:06:15,870
+in the near future if you're not flexible
+enough to jump between frameworks
+
+119
+00:06:15,870 --> 00:06:17,610
+from time to time as well.
+
+120
+00:06:17,610 --> 00:06:21,310
+And knowing the underneath
+technologies in JavaScript,
+
+121
+00:06:21,310 --> 00:06:24,580
+the language features that allow
+these libraries to be what they are,
+
+122
+00:06:24,580 --> 00:06:28,939
+is a good skill set to have because then
+you become independent of the library
+
+123
+00:06:28,939 --> 00:06:32,979
+that you want to and you just use
+JavaScript and the library for the benefits
+
+124
+00:06:32,979 --> 00:06:34,789
+that it was written for.
+
+125
+00:06:34,789 --> 00:06:38,780
+The last thing I'm really excited about –
+and I think a lot of people should use more
+
+126
+00:06:39,100 --> 00:06:42,460
+are online editors 
+or like playgrounds.
+
+127
+00:06:42,470 --> 00:06:45,110
+This is JSBin here, for example.
+
+128
+00:06:45,110 --> 00:06:50,310
+And JSBin is an opportunity for you
+to write JavaScript, CSS, and HTML,
+
+129
+00:06:50,310 --> 00:06:52,610
+and execute it directly in the browser.
+
+130
+00:06:52,610 --> 00:06:59,210
+So in this case when I now have a div here
+and I want to do something with it,
+
+131
+00:06:59,210 --> 00:07:02,840
+so in CSS, I can say the div
+should be a background colour green,
+
+132
+00:07:07,840 --> 00:07:09,560
+and give it a width and height.
+
+133
+00:07:14,000 --> 00:07:17,800
+Then while I'm doing it, I already see
+that there is a green div here right now.
+
+134
+00:07:17,800 --> 00:07:20,520
+And in JavaScript, I can now get
+a reference to that.
+
+135
+00:07:29,900 --> 00:07:31,420
+And then you can say -
+
+136
+00:07:39,680 --> 00:07:42,259
+And if I use that one now 
+and I should run it,
+
+137
+00:07:42,259 --> 00:07:43,610
+then something should happen,
+
+138
+00:07:43,610 --> 00:07:46,584
+run with JS, and it turns
+it into the other width,
+
+139
+00:07:46,584 --> 00:07:48,840
+although, in the CSS, 
+it has a width of 10 pixels.
+
+140
+00:07:49,500 --> 00:07:51,460
+These things are great
+to try things out quickly
+
+141
+00:07:51,460 --> 00:07:54,360
+without having to set up anything
+on your computer yourself.
+
+142
+00:07:54,760 --> 00:07:59,220
+Others, like CodePen also have
+all kinds of, like, pre compilers in there.
+
+143
+00:07:59,229 --> 00:08:03,300
+So if you want to use SASS
+or you want to use a lot of libraries like Vue.js,
+
+144
+00:08:03,300 --> 00:08:08,550
+or React without installing any of it,
+these are great ways to try these things out.
+
+145
+00:08:08,550 --> 00:08:09,849
+They're also collaborative.
+
+146
+00:08:09,849 --> 00:08:14,250
+So other people can make a copy
+of what you've done and change it around
+
+147
+00:08:14,250 --> 00:08:16,110
+and do something with them.
+
+148
+00:08:16,110 --> 00:08:17,960
+So there's three things 
+you can do with those.
+
+149
+00:08:17,960 --> 00:08:22,309
+Play with things, try them out, ask for help,
+so when you have something that doesn't work
+
+150
+00:08:22,309 --> 00:08:27,180
+in your code, write a little demo
+in one of those things and send that link around,
+
+151
+00:08:27,180 --> 00:08:31,800
+so people can actually edit them for you
+or edit them with you collaboratively,
+
+152
+00:08:31,800 --> 00:08:36,380
+and then you can find the problem together
+without having to describe what your problem is.
+
+153
+00:08:36,760 --> 00:08:40,460
+So these are great tools for teaching,
+these are great tools for learning,
+
+154
+00:08:40,460 --> 00:08:43,660
+and these are great tools for just
+collaborating with other people.
+
+155
+00:08:43,880 --> 00:08:47,360
+And when you use the preprocessors
+and the settings that you can do
+
+156
+00:08:47,370 --> 00:08:51,279
+in these JavaScript tools here
+where you can have all kind of precompilers
+
+157
+00:08:51,279 --> 00:08:54,720
+and all kind of different engines
+that you can use, it means you don't have
+
+158
+00:08:54,720 --> 00:08:58,810
+to set up your computer, it means
+you don't have to mess with your environment,
+
+159
+00:08:58,810 --> 00:09:02,470
+you just have something online
+that you play with and if you like it,
+
+160
+00:09:02,470 --> 00:09:05,120
+then you can start 
+setting up your machine.
+
+161
+00:09:05,120 --> 00:09:07,810
+And this is where JavaScript
+changed from the past.
+
+162
+00:09:07,810 --> 00:09:12,149
+We now have a whole ecosystem
+of development tools to work with.
+
+163
+00:09:12,149 --> 00:09:16,300
+So to repeat, browsers are evergreen
+and all of them come with developer tools,
+
+164
+00:09:16,300 --> 00:09:19,959
+so we should use these developer tools
+and understand what their benefits are
+
+165
+00:09:19,960 --> 00:09:23,700
+rather than putting alerts or console logs
+everywhere everywhere in our code.
+
+166
+00:09:24,160 --> 00:09:29,960
+Libraries and frameworks help us
+to do things that are not as easy to be done
+
+167
+00:09:29,970 --> 00:09:33,509
+in native JavaScript, if you just
+want to have something simply done,
+
+168
+00:09:33,509 --> 00:09:37,460
+they're probably a good idea,
+but it might be dangerous to only rely on them.
+
+169
+00:09:37,460 --> 00:09:42,100
+Editor's are much better than the text editors
+of the past because all of them are now integrated,
+
+170
+00:09:42,100 --> 00:09:46,800
+they're open, they're extensible,
+and you can write code in them for them.
+
+171
+00:09:47,000 --> 00:09:53,400
+And online tools like JSBin and CodePen
+are a great opportunity for you to try things out
+
+172
+00:09:53,400 --> 00:09:56,580
+without messing up your own computer
+and to send things to other people
+
+173
+00:09:56,589 --> 00:09:58,470
+to collaboratively work on them.
+
+174
+00:09:58,470 --> 00:10:01,790
+So these are just a few of the things
+where JavaScript works.
+
+175
+00:10:01,790 --> 00:10:05,490
+And the terminal is the last one where
+we do a lot of, like, version controlling
+
+176
+00:10:05,490 --> 00:10:07,620
+and tooling in JavaScript itself.
+
+177
+00:10:08,080 --> 00:10:12,860
+Knowing all of these is quite a hassle
+or is quite a job, but it will make you
+
+178
+00:10:12,860 --> 00:10:16,019
+much more effective, and you don't
+need to be an expert in all of them.
+
+179
+00:10:16,019 --> 00:10:20,070
+You just need to try them out when
+you need them and find some information online.
+
+180
+00:10:20,070 --> 00:10:21,779
+And that's what I wanted to talk
+to you about in this video.
+
+180
+00:10:21,800 --> 00:10:22,000
+=======================
+==   CLOSED CAPTIONS   ==
+== BY YERKCOL PTY LTD ==
+=======================

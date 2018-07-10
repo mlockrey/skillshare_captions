@@ -1,0 +1,382 @@
+1
+00:00:00,550 --> 00:00:03,620
+Welcome to this video in the
+Rediscovering JavaScript series.
+
+2
+00:00:03,620 --> 00:00:07,650
+In this section, I want you
+to remember that JavaScript is huge
+
+3
+00:00:07,650 --> 00:00:10,390
+and there's all kind of things
+that are done with JavaScript.
+
+4
+00:00:10,390 --> 00:00:11,730
+So you shouldn't feel bad
+
+5
+00:00:11,730 --> 00:00:15,090
+if you feel overwhelmed looking
+around what people are doing with it.
+
+6
+00:00:15,090 --> 00:00:18,140
+You should also not feel bad
+that other people are better at it
+
+7
+00:00:18,140 --> 00:00:20,720
+because other people do different things.
+
+8
+00:00:21,240 --> 00:00:23,659
+So when it comes to using
+JavaScript these days,
+
+9
+00:00:23,659 --> 00:00:26,069
+it's not about knowing everything.
+
+10
+00:00:26,069 --> 00:00:29,519
+That's almost impossible to do
+because the different ways JavaScript
+
+11
+00:00:29,519 --> 00:00:33,500
+are implemented around the web
+and around technology stacks
+
+12
+00:00:33,500 --> 00:00:37,699
+ask for different ways of learning
+JavaScript and different ways of using it.
+
+13
+00:00:37,699 --> 00:00:40,129
+So something that makes
+sense in an old environment
+
+14
+00:00:40,129 --> 00:00:44,260
+does not necessarily make sense
+on the web and the other way around.
+
+15
+00:00:44,260 --> 00:00:47,940
+So if you're a JavaScript developer
+that just wants to use vanilla JavaScript,
+
+16
+00:00:47,940 --> 00:00:51,180
+basically, JavaScript without
+any add-ons, without any features,
+
+17
+00:00:51,180 --> 00:00:54,280
+without any datasets around it
+or toolsets around it,
+
+18
+00:00:54,690 --> 00:00:57,860
+MDN Web Docs is where
+you're actually gonna be living.
+
+19
+00:00:57,879 --> 00:01:01,719
+This is where you find the information,
+and this is where you find excitement,
+
+20
+00:01:01,719 --> 00:01:04,860
+and this is probably a community
+where you also want to join
+
+21
+00:01:04,860 --> 00:01:06,600
+and you also want to be part of.
+
+22
+00:01:06,870 --> 00:01:09,920
+So there, you can shine, there,
+you can give your information back,
+
+23
+00:01:09,930 --> 00:01:14,190
+and there, you can do what you're
+actually excited about and what you can do.
+
+24
+00:01:14,190 --> 00:01:19,300
+If you're more inclined to use JavaScript
+in a way to build proper software services
+
+25
+00:01:19,300 --> 00:01:21,430
+or servers or these kind of things,
+
+26
+00:01:21,430 --> 00:01:24,410
+then the Node world is where
+you're much more excited.
+
+27
+00:01:24,410 --> 00:01:28,080
+These different worlds in JavaScript
+all have their different communities,
+
+28
+00:01:28,080 --> 00:01:31,050
+have their different Slack channels,
+have their different events,
+
+29
+00:01:31,050 --> 00:01:33,910
+and have their different 
+community gatherings.
+
+30
+00:01:33,910 --> 00:01:37,260
+So sometimes you're standing
+as a web developer at a Node event.
+
+31
+00:01:37,260 --> 00:01:39,090
+You don't understand a single word.
+
+32
+00:01:39,090 --> 00:01:41,450
+Whereas like a Node developer
+goes to a design conference
+
+33
+00:01:41,450 --> 00:01:45,130
+and doesn't understand what people
+are excited about when they do so many
+
+34
+00:01:45,130 --> 00:01:48,560
+different things in JavaScript
+in the Node environment.
+
+35
+00:01:48,560 --> 00:01:51,180
+So make sure that you find
+a spot that you're excited about
+
+36
+00:01:51,180 --> 00:01:53,170
+and then concentrate on that one.
+
+37
+00:01:53,170 --> 00:01:55,480
+But don't look at the others
+who are doing things in different ways
+
+38
+00:01:55,480 --> 00:01:56,600
+and think that they're doing it wrong.
+
+39
+00:01:56,600 --> 00:01:58,930
+They're just doing it 
+differently than you do.
+
+40
+00:01:58,930 --> 00:02:02,060
+There's also nothing wrong
+with taking a different approach
+
+41
+00:02:02,060 --> 00:02:04,880
+to developing by using a library.
+
+42
+00:02:04,880 --> 00:02:09,070
+React is a huge community
+and a huge environment
+
+43
+00:02:09,070 --> 00:02:10,700
+also based on JavaScript,
+
+44
+00:02:10,700 --> 00:02:14,310
+but React itself is a language
+that does things completely differently
+
+45
+00:02:14,310 --> 00:02:17,970
+than browsers do it
+and vanilla JavaScript does it.
+
+46
+00:02:17,970 --> 00:02:20,670
+This doesn't mean that you're
+actually giving up on the course,
+
+47
+00:02:20,670 --> 00:02:23,450
+that you're actually not
+becoming a JavaScript developer,
+
+48
+00:02:23,450 --> 00:02:28,320
+it means that you're taking a shortcut
+or you're taken away to build bigger applications
+
+49
+00:02:28,320 --> 00:02:30,680
+different applications –
+on a different stack.
+
+50
+00:02:31,280 --> 00:02:35,300
+So look at these things and look around
+where you will find yourself interested.
+
+51
+00:02:35,319 --> 00:02:38,960
+You can stay with the vanilla JavaScript world
+and build everything yourself,
+
+52
+00:02:38,960 --> 00:02:44,110
+you can go to a server-side environment
+with Node, or you can use Vue.js, Angular,
+
+53
+00:02:44,110 --> 00:02:47,100
+or React to build applications in that stack,
+
+54
+00:02:47,100 --> 00:02:51,140
+much like we used to have people
+writing things in jQuery rather than JavaScript
+
+55
+00:02:51,140 --> 00:02:55,600
+because jQuery back then solved
+the problem of browser differences.
+
+56
+00:02:55,600 --> 00:02:59,150
+React and Vue and Angular
+and those solve other problems
+
+57
+00:02:59,150 --> 00:03:04,300
+by putting architectural ideas
+of software development
+
+58
+00:03:04,300 --> 00:03:06,170
+into the JavaScript space.
+
+59
+00:03:06,170 --> 00:03:10,720
+So none of these things
+should a barrier for you.
+
+60
+00:03:10,720 --> 00:03:13,400
+None of these things
+should make you feel bad.
+
+61
+00:03:13,400 --> 00:03:15,340
+But understand that if you're
+a JavaScript expert,
+
+62
+00:03:15,340 --> 00:03:18,400
+you will probably not
+understand React from the get-go.
+
+63
+00:03:18,400 --> 00:03:21,200
+You have to put effort in 
+and learn it that way.
+
+64
+00:03:21,200 --> 00:03:22,500
+The same way with Vue.js.
+
+65
+00:03:22,500 --> 00:03:26,900
+A lot of designers like Vue.js
+because it's much easier than vanilla JavaScript.
+
+66
+00:03:26,900 --> 00:03:28,810
+Because every time we talk
+about vanilla JavaScript,
+
+67
+00:03:28,810 --> 00:03:31,959
+we talk about all the exceptions
+that you have to worry about.
+
+68
+00:03:31,959 --> 00:03:35,490
+With Vue.js, a lot of these things
+have been evened out for you
+
+69
+00:03:35,490 --> 00:03:38,660
+so you can start developing
+something pretty and beautiful
+
+70
+00:03:38,660 --> 00:03:41,600
+simpler than by
+understanding the language itself.
+
+71
+00:03:42,420 --> 00:03:46,480
+So think about JavaScript again
+as a "pick and mix", as something
+
+72
+00:03:46,490 --> 00:03:49,980
+where you can go and you don't
+have to play in all these communities –
+
+73
+00:03:49,980 --> 00:03:53,080
+but you should pick one of them
+and become excited in those.
+
+74
+00:03:53,540 --> 00:03:56,570
+So I hope you feel a bit calmer
+and you have a bit of a Zen feeling
+
+75
+00:03:56,570 --> 00:03:59,910
+about JavaScript right now
+knowing that you don't need to play
+
+76
+00:03:59,910 --> 00:04:03,910
+in all the parts and understand
+everything that's going on around you.
+
+77
+00:04:03,910 --> 00:04:06,819
+In the next video, we're going to talk
+about the development environment
+
+78
+00:04:06,819 --> 00:04:11,520
+for JavaScript, which changed drastically
+from just being a text editor in a browser.
+
+79
+00:04:11,520 --> 00:04:14,810
+So I want you to understand
+where to play, what to do, and what to install.
+
