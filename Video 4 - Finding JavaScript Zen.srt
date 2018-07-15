@@ -376,7 +376,7 @@ for JavaScript, which changed drastically
 from just being a text editor in a browser.
 
 79
-00:04:11,520 --> 00:04:14,810
+00:04:11,520 --> 00:04:14,990
 So I want you to understand
 where to play, what to do, and what to install.
 

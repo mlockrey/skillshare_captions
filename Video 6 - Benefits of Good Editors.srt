@@ -1,0 +1,1091 @@
+1
+00:00:00,539 --> 00:00:03,290
+Welcome back. In this section
+of Rediscovering JavaScript,
+
+2
+00:00:03,290 --> 00:00:06,819
+I want to talk about editor features
+that we should be using
+
+3
+00:00:06,820 --> 00:00:09,240
+because they just make total sense.
+
+4
+00:00:09,620 --> 00:00:12,219
+We've always been very excited
+that you just need a text editor
+
+5
+00:00:12,219 --> 00:00:15,650
+to write JavaScript
+or even a command line if you wanted to.
+
+6
+00:00:15,650 --> 00:00:19,770
+But we have so many great tools these days
+that make our life so much easier
+
+7
+00:00:19,770 --> 00:00:23,820
+and allow us to write predictable code,
+maintainable code,
+
+8
+00:00:23,820 --> 00:00:27,400
+because the editor itself
+has features in there for us.
+
+9
+00:00:27,820 --> 00:00:30,200
+For this example, we're going
+to use Visual Studio Code,
+
+10
+00:00:30,210 --> 00:00:32,710
+which is an open-source editor by Microsoft.
+
+11
+00:00:32,710 --> 00:00:36,620
+You can also use Atom,
+you can use all kinds of other editors.
+
+12
+00:00:36,620 --> 00:00:38,640
+Most frameworks 
+will have their own editors.
+
+13
+00:00:38,720 --> 00:00:42,940
+A lot of the features that we have
+in these editors are the same
+
+14
+00:00:42,940 --> 00:00:45,680
+for all of these different tools.
+
+15
+00:00:45,940 --> 00:00:48,060
+So I just want to talk about
+some of the features that you
+
+16
+00:00:48,061 --> 00:00:50,240
+might not have seen yet in these.
+
+17
+00:00:50,240 --> 00:00:52,090
+Not all of them are JavaScript-based.
+
+18
+00:00:52,090 --> 00:00:54,739
+Some of them will also
+talk about HTML and CSS.
+
+19
+00:00:54,739 --> 00:00:57,670
+But as JavaScript is used
+together with those technologies,
+
+20
+00:00:57,670 --> 00:01:00,040
+it does make sense
+to think about them as well.
+
+21
+00:01:00,680 --> 00:01:04,560
+Now you get Visual Studio Code
+by just going to code.visualStudio.com
+
+22
+00:01:04,570 --> 00:01:05,810
+And you can download it there.
+
+23
+00:01:05,810 --> 00:01:08,890
+You can download it for Mac,
+Linux, or Windows,
+
+24
+00:01:08,890 --> 00:01:12,790
+so it's a cross-platform,
+open-source, free editor
+
+25
+00:01:12,790 --> 00:01:17,530
+that you can just install on your machine
+and it runs automatically from there.
+
+26
+00:01:17,530 --> 00:01:21,190
+It updates itself as well,
+and you can sign in for, like,
+
+27
+00:01:21,190 --> 00:01:25,580
+getting the developer preview
+if you want to really get excited about it.
+
+28
+00:01:25,580 --> 00:01:29,920
+There's also extensible documentation
+about the editor itself, what it means,
+
+29
+00:01:29,920 --> 00:01:32,383
+how to use it, what kind 
+of features are coming,
+
+30
+00:01:32,383 --> 00:01:35,640
+what kind of features it has 
+for node.js and for JavaScript,
+
+31
+00:01:35,640 --> 00:01:41,380
+how to debug them, and how the feature sets
+for different environments that you want to have.
+
+32
+00:01:41,540 --> 00:01:45,220
+These are constantly getting updated
+and you can also edit them if you want to.
+
+33
+00:01:45,220 --> 00:01:50,130
+If you find something wrong in this documentation,
+please edit them and send it back to the team
+
+34
+00:01:50,130 --> 00:01:51,620
+and you get features from that.
+
+35
+00:01:52,070 --> 00:01:55,760
+Now, a first thing to remember here,
+or what's very important,
+
+36
+00:01:55,760 --> 00:02:00,420
+is that it's called Visual Studio Code,
+but it's got nothing to do with Visual Studio.
+
+37
+00:02:00,420 --> 00:02:03,430
+Visual Studio is an IDE, that is,
+most of the time,
+
+38
+00:02:03,430 --> 00:02:07,620
+for me as a JavaScript developer
+overkill for what we're doing.
+
+39
+00:02:07,620 --> 00:02:10,769
+It has its benefits, of course,
+for using in other languages.
+
+40
+00:02:10,769 --> 00:02:12,989
+It's a very great development environment.
+
+41
+00:02:12,989 --> 00:02:14,609
+But it's not Visual Studio.
+
+42
+00:02:14,609 --> 00:02:17,200
+So you don't need to worry about it
+being a Microsoft product.
+
+43
+00:02:17,200 --> 00:02:18,879
+"You have to do everything with Microsoft."
+
+44
+00:02:18,879 --> 00:02:23,049
+This is an open-source product
+that is maintained by Microsoft people
+
+45
+00:02:23,049 --> 00:02:26,040
+but also people from 
+the outside take part in that.
+
+46
+00:02:26,700 --> 00:02:30,740
+So a few things that I want to point out
+that editors have nowadays that I think
+
+47
+00:02:30,740 --> 00:02:33,240
+are much more exciting
+than what we had in the past.
+
+48
+00:02:33,580 --> 00:02:35,960
+First thing you see here is a colour scheme.
+
+49
+00:02:36,120 --> 00:02:40,159
+And this already helps me
+in my code to see what is what.
+
+50
+00:02:40,159 --> 00:02:45,579
+So this is the document query selector,
+and this here is a value, for example.
+
+51
+00:02:45,579 --> 00:02:47,879
+So you see in your code what is what.
+
+52
+00:02:47,879 --> 00:02:52,730
+That allows you to easily skim through
+your code and understand what you're doing
+
+53
+00:02:52,730 --> 00:02:55,889
+rather than just having a black text
+on white background
+
+54
+00:02:55,889 --> 00:02:59,740
+or white text on black background,
+that you need to understand what is what.
+
+55
+00:03:01,060 --> 00:03:04,660
+The next thing these editors do
+which is pretty amazing for you
+
+56
+00:03:04,670 --> 00:03:08,029
+is that you can change these to your needs.
+
+57
+00:03:08,029 --> 00:03:11,151
+So if you need, for example, a bigger font,
+then you can change the font to it –
+
+58
+00:03:11,151 --> 00:03:14,069
+if you want a different font face,
+you can have a different font face.
+
+59
+00:03:14,069 --> 00:03:15,590
+All of these things are tweakable.
+
+60
+00:03:15,590 --> 00:03:19,980
+So you can make this thing your
+editor the best way you want to have it.
+
+61
+00:03:19,980 --> 00:03:21,620
+There's lots of settings in there.
+
+62
+00:03:21,620 --> 00:03:24,230
+There's lots of people writing their own themes.
+
+63
+00:03:24,230 --> 00:03:28,650
+There's a whole community around theming
+of different editors and moving the theme
+
+64
+00:03:28,650 --> 00:03:30,449
+from one editor to another.
+
+65
+00:03:30,449 --> 00:03:34,589
+But all of these things are meant for you
+to make your code more readable to yourself
+
+66
+00:03:34,589 --> 00:03:38,069
+and more readable to the next person
+that has to maintain your code,
+
+67
+00:03:38,069 --> 00:03:40,980
+which actually might be 
+you in the near future.
+
+68
+00:03:41,520 --> 00:03:43,859
+The next thing that I love 
+about editors nowadays
+
+69
+00:03:43,859 --> 00:03:47,019
+is that they do automatically 
+things for you like indenting.
+
+70
+00:03:47,019 --> 00:03:52,559
+Like, for example, when you have
+a new function here called "myFunction,"
+
+71
+00:03:52,559 --> 00:03:57,390
+and you do the brackets, you see that it
+already indented into the next line,
+
+72
+00:03:57,390 --> 00:03:59,650
+that way making your code
+much, much more readable.
+
+73
+00:03:59,650 --> 00:04:04,370
+There are automated settings there
+and you could copy and paste a function in
+
+74
+00:04:04,370 --> 00:04:09,040
+or a piece of code in and it lays it out
+for you the way you're supposed to do it.
+
+75
+00:04:09,040 --> 00:04:12,260
+And that's pretty powerful, 
+because in the past,
+
+76
+00:04:12,260 --> 00:04:14,389
+you had these these complaints
+
+77
+00:04:14,389 --> 00:04:18,150
+about one person using space,
+one using one using tabs.
+
+78
+00:04:18,150 --> 00:04:22,290
+In this case, you can just define down here
+if you want spaces or tabs
+
+79
+00:04:22,290 --> 00:04:25,940
+and you can change them around
+to convert from spaces to tabs
+
+80
+00:04:25,940 --> 00:04:31,170
+and you can do the automated
+indentation in this code for yourself.
+
+81
+00:04:31,170 --> 00:04:34,570
+So while you're writing code,
+the syntax of the code,
+
+82
+00:04:34,570 --> 00:04:39,450
+or the look and feel of the code
+is done for you by the editor, which, of course,
+
+83
+00:04:39,450 --> 00:04:45,050
+makes it much, much easier to be maintainable
+and to make your code much more readable.
+
+84
+00:04:45,050 --> 00:04:48,120
+And you can concentrate 
+on writing your code
+
+85
+00:04:48,120 --> 00:04:50,900
+rather than styling 
+your code accordingly to that.
+
+86
+00:04:51,580 --> 00:04:54,200
+There are all kind of
+interesting features there as well,
+
+87
+00:04:54,200 --> 00:04:57,180
+like when you have something like
+an addEventListener here,
+
+88
+00:04:57,180 --> 00:05:00,470
+you can do a Command+D 
+to highlight all of them.
+
+89
+00:05:00,470 --> 00:05:03,530
+And as you can see,
+we now have different cursors here.
+
+90
+00:05:03,530 --> 00:05:06,940
+So, instead of having one cursor,
+you now have a cursor after each of them.
+
+91
+00:05:06,940 --> 00:05:10,660
+So if you want to rename all of them
+to something else, you can do that
+
+92
+00:05:10,660 --> 00:05:14,980
+by just hitting delete and
+renaming it to something else.
+
+93
+00:05:14,980 --> 00:05:19,610
+So that way, you don't have to do that
+bit by bit and keep repeating things.
+
+94
+00:05:19,610 --> 00:05:21,900
+And when we repeat things, we make mistakes.
+
+95
+00:05:21,900 --> 00:05:26,400
+So this way, an editor helps you much,
+much better to find out what's going on.
+
+96
+00:05:26,840 --> 00:05:30,360
+Autocompletion is something that
+most editors have for you nowadays as well.
+
+97
+00:05:30,370 --> 00:05:33,780
+And this is very, very useful
+because it does two things.
+
+98
+00:05:33,780 --> 00:05:37,470
+First of all, it makes sure
+that you don't mistype things,
+
+99
+00:05:37,470 --> 00:05:39,630
+and second of all,
+you type a lot less.
+
+100
+00:05:39,630 --> 00:05:43,270
+And a lot less typing means you can
+write more code in less time,
+
+101
+00:05:43,270 --> 00:05:45,580
+and you also have 
+less strain on your fingers.
+
+102
+00:05:45,580 --> 00:05:50,680
+So for example, if I want to rewrite
+that first line here, I start with a restart button,
+
+103
+00:05:51,320 --> 00:05:54,820
+and it realised already
+I've got a restart button defined.
+
+104
+00:05:54,830 --> 00:05:59,460
+So all I have to type is rest or all the 
+other things that might be applicable to it.
+
+105
+00:05:59,460 --> 00:06:03,350
+So then, I just hit the tab completion,
+and I have a restart button.
+
+106
+00:06:03,350 --> 00:06:05,360
+I then start the addEventListener,
+
+107
+00:06:05,940 --> 00:06:08,820
+and in this case, I could also 
+take the addEventListener
+
+108
+00:06:09,140 --> 00:06:13,420
+and highlight it, and that way,
+I learned what add event listener means.
+
+109
+00:06:13,430 --> 00:06:17,560
+If I don't remember, for example,
+the order of the parameters in this one
+
+110
+00:06:17,560 --> 00:06:21,270
+or I don't know what kind of features
+are available to me – so in this case
+
+111
+00:06:21,270 --> 00:06:24,860
+is point up, touch start, point to cancel,
+and so on and so forth,
+
+112
+00:06:25,260 --> 00:06:26,940
+I now know what these things are
+
+113
+00:06:26,940 --> 00:06:30,860
+just by clicking on them and
+getting an autocompletion form yourself.
+
+114
+00:06:30,860 --> 00:06:34,900
+So this is what a good editor does for you
+and it makes it much, much simpler
+
+115
+00:06:34,900 --> 00:06:38,700
+to write a lot more code 
+without doing any typos.
+
+116
+00:06:39,300 --> 00:06:42,860
+Now if you have a huge amount of code –
+this is not too much of a huge amount of code.
+
+117
+00:06:42,870 --> 00:06:45,030
+It's just a simple game that I've written –
+
+118
+00:06:45,030 --> 00:06:48,360
+you can see that a good editor 
+has these maps here as well.
+
+119
+00:06:48,360 --> 00:06:51,800
+So you can jump in
+the map itself to a certain part
+
+120
+00:06:51,800 --> 00:06:54,460
+rather than just 
+having to do it line by line.
+
+121
+00:06:54,460 --> 00:06:58,700
+So that's a nice little shortcut to jump
+to a section in the code as well.
+
+122
+00:06:58,700 --> 00:07:02,820
+And it gives you an overview of, like,
+how large the code is that you've written so far.
+
+123
+00:07:03,330 --> 00:07:06,740
+Another interesting thing is when you
+have a big amount of code,
+
+124
+00:07:06,750 --> 00:07:09,950
+you sometimes wonder what something is
+that you call and where it is.
+
+125
+00:07:09,950 --> 00:07:13,220
+So for example, I've got a
+function here called "clearMove."
+
+126
+00:07:13,220 --> 00:07:16,580
+And it says here,
+"Okay, does it define constant clearMove?"
+
+127
+00:07:16,580 --> 00:07:19,240
+And if I click on that one,
+I can say "Peek Definition,"
+
+128
+00:07:19,740 --> 00:07:25,280
+and that way I can see where
+the function is in the other part of the code.
+
+129
+00:07:25,280 --> 00:07:28,930
+So I don't have to scroll back and forth
+between the two sections
+
+130
+00:07:28,930 --> 00:07:30,710
+to understand what I'm doing.
+
+131
+00:07:30,710 --> 00:07:36,520
+So I can just do this with a Ctrl+F12
+or with a mouse here, and that way,
+
+132
+00:07:36,520 --> 00:07:38,560
+I can actually understand where I am.
+
+133
+00:07:38,560 --> 00:07:41,389
+So I can see this code is here,
+the other code is here.
+
+134
+00:07:41,389 --> 00:07:45,400
+So I would have had to jump around
+in the whole document just to do that peeking.
+
+135
+00:07:45,400 --> 00:07:48,460
+So these are some things 
+that are very, very powerful
+
+136
+00:07:48,460 --> 00:07:51,060
+to do in here when it 
+comes to writing JavaScript.
+
+137
+00:07:52,280 --> 00:07:55,980
+Other things that a good editor
+should do for you is also allow you
+
+138
+00:07:55,990 --> 00:07:57,960
+to have several editors next to each other.
+
+139
+00:07:57,960 --> 00:08:03,560
+So in this case, I can split that here,
+and I can have my HTML next to my JavaScript,
+
+140
+00:08:03,560 --> 00:08:07,260
+so I see how both of those interact
+and I can jump between them.
+
+141
+00:08:07,260 --> 00:08:10,440
+One extra feature that 
+something like Visual Studio code has
+
+142
+00:08:10,440 --> 00:08:15,030
+is that it has the whole environment 
+that we talked about earlier –
+
+143
+00:08:15,030 --> 00:08:18,639
+the debugging and the console –
+directly in one editor.
+
+144
+00:08:18,639 --> 00:08:22,930
+So you don't need to jump between the terminal
+and the editor all the time because you have
+
+145
+00:08:22,930 --> 00:08:25,870
+an inbuilt terminal in the system here.
+
+146
+00:08:25,870 --> 00:08:27,876
+So I could just do my commands –
+
+147
+00:08:27,876 --> 00:08:31,260
+my build commands or my 
+version controlling commands –
+
+148
+00:08:31,260 --> 00:08:33,413
+directly in the editor 
+without having to jump
+
+149
+00:08:33,420 --> 00:08:36,220
+between the terminal 
+and my editor all the time.
+
+150
+00:08:36,220 --> 00:08:40,080
+Sometimes, it's a good thing to jump between
+the two because you're changing your mind.
+
+151
+00:08:40,089 --> 00:08:44,509
+But it also is quite heavy 
+on your cognitive thinking
+
+152
+00:08:44,509 --> 00:08:46,680
+to go from one editor to another,
+
+153
+00:08:46,680 --> 00:08:48,495
+where it's like, if you stay in this one,
+
+154
+00:08:48,495 --> 00:08:51,389
+you can do all the commands 
+that you need to do here,
+
+155
+00:08:51,389 --> 00:08:54,170
+so you can do your version controlling,
+you can do your build scripts,
+
+156
+00:08:54,170 --> 00:08:56,329
+and all of those could 
+(ought) to be automated.
+
+157
+00:08:56,329 --> 00:08:58,800
+So every time I save 
+something in the editor,
+
+158
+00:08:58,800 --> 00:09:01,089
+it would do automatically part of my build
+script
+
+159
+00:09:01,089 --> 00:09:04,110
+or part of my deployment for me.
+
+160
+00:09:04,110 --> 00:09:06,160
+So that way, you have everything in one editor.
+
+161
+00:09:06,160 --> 00:09:09,809
+This is also great if you teach people
+something about web development,
+
+162
+00:09:09,809 --> 00:09:12,680
+you can just give them this one editor
+rather than saying like,
+
+163
+00:09:12,680 --> 00:09:17,309
+"You need an editor, and you need to set up
+your terminal, you need to install your terminal that way."
+
+164
+00:09:17,309 --> 00:09:19,529
+Another thing that it does is linting.
+
+165
+00:09:19,529 --> 00:09:25,220
+So if, for example, you have your CSS here,
+and I've got a linter installed,
+
+166
+00:09:25,720 --> 00:09:30,180
+if I have it show the problems,
+it should tell me when something goes wrong.
+
+167
+00:09:30,180 --> 00:09:33,000
+So you can see here – now I have
+a semi-colon that I deleted.
+
+168
+00:09:33,000 --> 00:09:35,539
+And all of a sudden, the 
+background here becomes red,
+
+169
+00:09:35,539 --> 00:09:38,220
+and I've got squiggly lines 
+under those things.
+
+170
+00:09:38,220 --> 00:09:42,149
+That's much like when you do a typo in Word,
+it does it now inside the code.
+
+171
+00:09:42,149 --> 00:09:45,779
+So in this case, I forgot the semicolon
+which is now an error here,
+
+172
+00:09:45,780 --> 00:09:47,340
+It's "semi-colon expected."
+
+173
+00:09:47,540 --> 00:09:52,880
+And then the rest of the CSS selector
+is also broken because the semi-colon isn't there.
+
+174
+00:09:52,880 --> 00:09:57,639
+So if I now put the semi-colon in there again,
+then all of these errors are going away.
+
+175
+00:09:57,639 --> 00:10:02,680
+So that way, I get insight directly,
+while I'm coding that I'm doing something wrong,
+
+176
+00:10:02,680 --> 00:10:06,639
+rather than having to go to the browser,
+debug it and find my problems that way.
+
+177
+00:10:06,640 --> 00:10:10,000
+You can do the same thing in JavaScript
+by either installing an extension
+
+178
+00:10:10,200 --> 00:10:11,660
+or you can also use –
+
+179
+00:10:11,670 --> 00:10:15,730
+just do a comment above 
+your JavaScript called //@ts-check
+
+180
+00:10:15,730 --> 00:10:20,119
+That one uses TypeScript's linter
+to run your JavaScript against.
+
+181
+00:10:20,119 --> 00:10:22,619
+So in this case, it now shows me 
+all the JavaScript errors
+
+182
+00:10:22,619 --> 00:10:25,029
+that I made in this one, 
+and some of them
+
+183
+00:10:25,029 --> 00:10:29,050
+are actually not really errors,
+but they're false positives.
+
+184
+00:10:29,050 --> 00:10:31,990
+But if I made some mistake,
+it will automatically tell me that.
+
+185
+00:10:31,990 --> 00:10:37,290
+So for example, if I deleted that game here,
+and I tried to access the game somewhere else,
+
+186
+00:10:37,290 --> 00:10:38,820
+it says cannot find game.
+
+187
+00:10:39,260 --> 00:10:41,249
+So in this case, I have 
+not defined the game,
+
+188
+00:10:41,249 --> 00:10:43,920
+so I cannot actually do 
+a game turns because they don't exist.
+
+189
+00:10:43,920 --> 00:10:48,780
+That would be an error that the browser
+would throw at me, and I would have to debug there.
+
+190
+00:10:48,780 --> 00:10:52,360
+But as I have to linter turned on 
+in the editor itself,
+
+191
+00:10:52,360 --> 00:10:54,709
+it shows me the things 
+while I'm coding it,
+
+192
+00:10:54,709 --> 00:10:58,050
+and that way, I become a better developer
+because I don't make mistakes.
+
+193
+00:10:58,050 --> 00:10:59,470
+You also see the red dots here.
+
+194
+00:10:59,470 --> 00:11:02,910
+These are telling us where all
+the problems are that we just talked about.
+
+195
+00:11:02,910 --> 00:11:06,680
+So some of them have these issues
+and you roll over the squiggly line,
+
+196
+00:11:06,680 --> 00:11:09,660
+and then it tells you what the problem is.
+
+197
+00:11:10,350 --> 00:11:14,320
+The last thing that is great in this editor
+is that it has version controlling built in.
+
+198
+00:11:14,339 --> 00:11:16,939
+And we're going to talk 
+about version control later.
+
+199
+00:11:16,939 --> 00:11:20,790
+So when you change something
+and you click on it, you can actually see
+
+200
+00:11:20,790 --> 00:11:22,930
+the differences in your merging.
+
+201
+00:11:22,930 --> 00:11:26,970
+So in this case, if I want to send this back
+to the server, it tells me now that these
+
+202
+00:11:26,970 --> 00:11:28,660
+new two lines have been added,
+
+203
+00:11:28,660 --> 00:11:30,420
+and these two lines
+have been deleted,
+
+204
+00:11:30,420 --> 00:11:33,010
+and the game thing 
+has been changed here as well.
+
+205
+00:11:33,010 --> 00:11:36,680
+So I get – before I send something
+to the server or to my colleagues,
+
+206
+00:11:36,680 --> 00:11:38,800
+it tells me all the things that happened.
+
+207
+00:11:39,350 --> 00:11:41,240
+So in essence, a good editor 
+should tell you –
+
+208
+00:11:41,259 --> 00:11:44,369
+should make it, first of all,
+easy for you to write,
+
+209
+00:11:44,369 --> 00:11:48,670
+by having a nice theme and making it easier
+to type things by having autocompletion
+
+210
+00:11:48,670 --> 00:11:51,250
+and the indentation and these things for you.
+
+211
+00:11:51,250 --> 00:11:53,730
+And the extra bits that I love 
+about Visual Studio Code
+
+212
+00:11:53,730 --> 00:11:56,470
+and others as well is that 
+it has the terminal built in,
+
+213
+00:11:56,470 --> 00:11:58,490
+it has the linting built in, 
+and it tells me
+
+214
+00:11:58,490 --> 00:11:59,819
+when I'm doing something wrong
+
+215
+00:11:59,820 --> 00:12:03,180
+while I'm doing something wrong
+rather than me having to find out by trying it
+
+216
+00:12:03,180 --> 00:12:04,800
+in the browser and then breaking it.
+
+217
+00:12:05,420 --> 00:12:08,500
+So think about setting up
+your editor for yourself.
+
+218
+00:12:08,509 --> 00:12:12,809
+And if you choose to use a Visual Studio Code,
+you know it's an open-source editor
+
+219
+00:12:12,809 --> 00:12:14,369
+and it will not go away.
+
+220
+00:12:14,369 --> 00:12:15,819
+And that's a great thing too.
+
+221
+00:12:15,819 --> 00:12:18,930
+So now you know how a good editor
+can make you a better developer.
+
+222
+00:12:18,930 --> 00:12:23,620
+And finding the extensions for it is actually
+something to make it your editor as well.
+
+223
+00:12:24,020 --> 00:12:27,399
+Next, I want to talk about something
+that is very important when you want to work
+
+224
+00:12:27,399 --> 00:12:29,920
+with a lot of other people
+and also when you want to make sure
+
+225
+00:12:29,920 --> 00:12:32,580
+that what you've done today
+is understandable in three weeks time,
+
+226
+00:12:32,580 --> 00:12:33,740
+and that's version controlling.
+
+227
+00:12:33,740 --> 00:12:34,240
+=======================
+==   CLOSED CAPTIONS   ==
+== BY YERKCOL PTY LTD ==
+=======================
+
